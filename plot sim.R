@@ -1,4 +1,6 @@
 
+#Code mofied from: http://psychologicalstatistics.blogspot.com/2010/02/interaction-plot-from-cell-means.html
+#Modifications allow for a greater number of cells (vs. the origional 2*2)
 
 plot.sim <- function(obj, group.names, legend = TRUE, leg.loc=NULL, 
                      factor.labels=c('Factor A', 'Factor B'), swap = FALSE, ylab= NULL, main = NULL){
